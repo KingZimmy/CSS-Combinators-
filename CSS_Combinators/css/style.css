@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Child Selector */
+
+.container div > p {
+  background-color: lightcoral;
+}
+
+/* Descendant Selector */
+
+.container2 div p {
+  background-color: lightcoral;
+}
+
+/* Adjacent Sibling Selector (+) */
+
+.container3 div + p {
+  background-color: lightcoral;
+}
+
+/* General Sibling Selector (~) */
+
+.container4 div ~ p {
+  background-color: lightcoral;
+}
+
+.container {
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.container3 {
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.container4 { 
+    border: 3px solid black;
+}
+
+p {
+    background-color: yellow;
+}
+
